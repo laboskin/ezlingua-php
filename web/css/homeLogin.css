@@ -1,0 +1,83 @@
+.main-register{
+     min-height: 100%;
+     display: flex;
+     flex-flow: row nowrap;
+     align-items: center;
+     justify-content: center;
+     padding: 20px 10px;
+ }
+
+.register-block{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 16px;
+    width: 450px;
+    position: relative;
+}
+.form-title{
+    font-size: 26px;
+    font-weight: 700;
+    margin: 10px 0 20px 0;
+}
+.restore-password{
+    display: flex;
+    justify-content: flex-end;
+}
+.form-group.field-loginform-password{
+    margin-bottom: 0;
+}
+.restore-password a, .restore-password a:hover{
+    display: inline-block;
+    font-weight: 700;
+    color: #1cb0f6;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+
+.submit-button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px 25px;
+    border-radius: 100px;
+    border: 0;
+    outline: 0;
+    background-color: #1fc1ff;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.have-account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4b4b4b;
+    font-weight: 700;
+}
+.have-account a{
+    display: inline-block;
+    color: #1cb0f6;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-left: 5px;
+}
+.have-account a:hover{
+    color: #1cb0f6;
+}
+
+@media screen and (max-width: 500px){
+    .main-register{
+        padding: 0;
+        height: 100%;
+        display: block;
+    }
+
+    .register-block{
+        height: 100%;
+        width: 100%;
+        border-radius: 0;
+        padding: 10px;
+    }
+}

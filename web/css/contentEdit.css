@@ -1,0 +1,124 @@
+.main-container{
+    max-width: 600px;
+    min-height: 600px;
+    padding: 20px 10px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+.page-title{
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.page-name{
+
+}
+.page-name-text{
+    font-size: 20px;
+    font-weight: 700;
+    color: #37383c;
+}
+
+.form-group .help-block-error{
+    display: none;
+}
+.form-group.has-error .help-block-error{
+    display: block;
+}
+.form-group{
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-group label{
+    display: block;
+    flex: 0 0 100px;
+    margin-right: 50px;
+    font-weight: 400;
+}
+.form-group input, .form-group select, .form-group textarea, .form-group .file-input{
+    flex: 1 0 300px;
+}
+.form-group p{
+    width: calc(100% - 150px);
+    margin-left: 150px;
+}
+textarea{
+    min-height: 200px;
+}
+.applyButton{
+    border: 0;
+    margin-top: 10px;
+    margin-left: 150px;
+    display: inline-block;
+    background-color: #2582e7;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.file-preview{
+    border: 0 !important;
+    padding: 0 !important;
+}
+.file-preview-frame{
+    margin: 4px !important;
+    padding: 3px !important;
+    border: 0 !important;
+    border-radius: 5px;
+}
+.kv-file-remove{
+    padding-top: 9px !important;
+    border: 0 !important;
+}
+.kv-upload-progress, .fileinput-cancel, .file-preview-status, .progress{
+    display: none !important;
+}
+.file-drop-zone-title{
+    padding: 30px 10px !important;
+    font-size: 16px !important;
+}
+.kv-file-remove:hover{
+    background-color: #fff !important;
+    border: 0 !important;
+}
+.file-drop-zone{
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 1px solid #ccc !important;
+}
+.file-drop-zone:hover{
+    border: 1px dashed #ccc !important;
+    padding: 0 !important;
+}
+.kv-file-content{
+    margin-bottom: 10px !important;
+    width: 100px !important;
+    height: 50px !important;
+}
+.file-thumbnail-footer{
+    height: 30px !important;
+}
+.file-footer-caption{
+    display: none !important;
+}
+
+@media screen and (max-width: 500px){
+    .form-group{
+        display: block;
+    }
+    .form-group p{
+        width: auto;
+        margin-left: 0;
+    }
+    .applyButton{
+        margin: 0 auto !important;
+        display: block !important;
+    }
+    .file-drop-zone-title{
+        padding: 30px 0 !important;
+    }
+}

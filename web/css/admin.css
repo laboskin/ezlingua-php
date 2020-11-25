@@ -1,0 +1,25 @@
+.main-container{
+    max-width: 900px;
+    min-height: 600px;
+    padding: 20px 10px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+.page-title{
+    margin-bottom: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.page-name{
+
+}
+.page-name-text{
+    font-size: 20px;
+    font-weight: 700;
+    color: #37383c;
+}
+.section{
+    width: 100%;
+    padding-bottom: 30px;
+}
